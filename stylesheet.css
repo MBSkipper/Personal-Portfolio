@@ -91,7 +91,6 @@ p {
     .proj_heading {
         width: 100%;
 
-
     }
      
     .examples {
@@ -99,6 +98,18 @@ p {
         align-content:center;
         flex-basis: auto;
     }
+
+    .examples img {
+        max-width: 400px;
+        max-height: 200px;
+        margin-top: 2rem;
+      }
+
+      .examples p { 
+        justify-self: flex-end;
+        align-self: flex-end;
+        font-size: 0.5rem;
+      }
 
 /* -- Skills section --*/
 
