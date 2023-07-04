@@ -27,7 +27,7 @@ p {
 /* -- Headings --*/
 
     h1{
-        font-size: 1.75rem;
+        font-size: 2rem;
     }
 
     h2{
@@ -131,7 +131,7 @@ p {
       .examples p { 
         justify-self: flex-end;
         align-self: flex-end;
-        font-size: 0.5rem;
+        font-size: 0.4rem;
       }
 
 /* -- Skills section --*/
