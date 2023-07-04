@@ -58,7 +58,17 @@ p {
         flex-basis: auto;
         justify-content: center;
         align-items: flex-start; 
+        background-color: lightgray;
     } 
+
+    nav li {
+        display: inline-block;
+        padding-left: 0.5rem;  
+    }
+
+    nav a {
+        display: block;
+    }
 
 
 /* --About me and coding sections --*/
@@ -68,6 +78,17 @@ p {
         display:flex;
         background-color: lightgray;
         flex-flow: column nowrap;
+        
+    }
+
+    .about img, .coding img{
+        max-width: 20rem;
+        max-height: 15rem;
+        margin-top: 1rem;
+    }
+
+    .about span, .coding span {
+        font-size: 0.4rem;
     }
 
     .coding {
@@ -77,6 +98,8 @@ p {
         background-color: whitesmoke;
         flex-flow: column nowrap;
     }
+
+    
 
 /* -- Projects section --*/
 
@@ -114,24 +137,34 @@ p {
 /* -- Skills section --*/
 
     .skills {
-        height: 300px; 
+        height: 100px; 
         width: auto;
         display: flex;
         flex-flow: row wrap;
         background-color: whitesmoke;
     }
 
-    .skill_header {
+    .skills_header {
         flex-wrap: wrap; 
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    
     }
 
     .ican {
-        flex: 1 1 15%;
+        flex: 1 1 16%;
     }
+
+    .ican img {
+        max-width: 4rem;
+        max-height: 2rem;
+        margin-top: 1rem;
+    }
+
+    .ican span {
+        line-height: 0.5rem;
+        font-weight: 600;
+      }
 
 /*  --  Options and pics  --  */
   
