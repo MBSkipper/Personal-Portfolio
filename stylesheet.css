@@ -59,7 +59,7 @@ p {
         flex-basis: auto;
         justify-content: center;
         align-items: flex-start; 
-        background-color: lightgray;
+        /* background-color: lightgray; */
     } 
 
     nav li {
@@ -73,53 +73,37 @@ p {
 
 
 /* --About me and coding sections --*/
-    .about  {
-        height: auto;
-        width: auto;
+    .about, .coding {
+        /* height: auto;
+        width: auto; */
         display:flex;
-        background-color: lightgray;
-        flex-flow: row wrap; 
+        /* background-color: lightgray; 
+        flex-flow: row wrap; */
     }
 
 
-    .about img {
+    .about img, .coding img {
   float: left; /* Float the image to the left */
   margin-right: 10px; /* Add some space between the image and text */
 }
 
-    .about p {
+    .about p, coding p {
   flex-grow: 1; /* Allow the paragraph to grow and take up remaining space */
 }
 
 
-    .about img, .coding img{
+    .about img, .coding img {
         max-width: 20rem;
         max-height: 15rem;
-        margin-top: 1rem;
     }
-
-    /*
-    .about span, .coding span {
-        font-size: 0.4rem;
-    }
-    */
-
-    .coding {
-        height: auto;
-        width: auto;
-        display:flex;
-        background-color: whitesmoke;
-        flex-flow: column wrap; 
-    }
-
-    
+        
 
 /* -- Projects section --*/
 
     .projects {
         display: flex;
         flex-flow: row wrap;
-        background-color: lightgray;
+        /* background-color: lightgray; */
         justify-content: center;
         align-items: flex-start;
     }
@@ -154,7 +138,7 @@ p {
         width: auto;
         display: flex;
         flex-flow: row wrap;
-        background-color: whitesmoke;
+        /* background-color: whitesmoke; */
     }
 
     .skills_header {
@@ -199,7 +183,7 @@ p {
     .option img {
       max-width: 400px;
       max-height: 200px;
-      margin-top: 2rem;
+      /* margin-top: 2rem; */
     }
   
     .option p { 
