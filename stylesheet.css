@@ -32,6 +32,7 @@ p {
 
     h2{
         font-size: 1.5rem;
+        margin-top: 2.5rem;
     }
 
     h3 {
@@ -77,9 +78,19 @@ p {
         width: auto;
         display:flex;
         background-color: lightgray;
-        flex-flow: column nowrap;
-        
+        flex-flow: row wrap; 
     }
+
+
+    .about img {
+  float: left; /* Float the image to the left */
+  margin-right: 10px; /* Add some space between the image and text */
+}
+
+    .about p {
+  flex-grow: 1; /* Allow the paragraph to grow and take up remaining space */
+}
+
 
     .about img, .coding img{
         max-width: 20rem;
@@ -87,16 +98,18 @@ p {
         margin-top: 1rem;
     }
 
+    /*
     .about span, .coding span {
         font-size: 0.4rem;
     }
+    */
 
     .coding {
         height: auto;
         width: auto;
         display:flex;
         background-color: whitesmoke;
-        flex-flow: column nowrap;
+        flex-flow: column wrap; 
     }
 
     
